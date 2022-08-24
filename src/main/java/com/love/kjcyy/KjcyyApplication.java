@@ -19,8 +19,7 @@ public class KjcyyApplication {
         SpringApplication.run(KjcyyApplication.class, args);
     }
 
-    //    @Scheduled(cron = "0 0 8 * * ?")
-    @Scheduled(cron = "0/10 * 17 * * ? ")
+    @Scheduled(cron = "0 30 7 * * ?")
     public void sendMsg() {
         sendMsg.sendByTemplate();
     }
