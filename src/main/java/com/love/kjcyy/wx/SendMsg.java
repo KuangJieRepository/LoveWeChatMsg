@@ -168,7 +168,6 @@ public class SendMsg {
              */
             if ("xxx".equals(uid)) {
                 weatherInfo = weather.getWeatherInfo("410103", "河南省郑州市二七区", paramConfig.ak);
-                continue;
             }
             if ("xxx".equals(uid)) {
                 weatherInfo = weather.getWeatherInfo("110114", "北京市北京市昌平区", paramConfig.ak);
