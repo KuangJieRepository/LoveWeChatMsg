@@ -175,7 +175,7 @@ public class SendMsg {
             WxMpTemplateMessage templateMessage = WxMpTemplateMessage.builder()
                     .toUser(uid)
                     .templateId(paramConfig.templateId)
-                    .url("")
+                    .url("https://github.com/KuangJieRepository/LoveWeChatMsg")
                     .build();
             //日期
             templateMessage.addData(new WxMpTemplateData("date", DateTimeUtil.getNowDate(), "blue"));
